@@ -65,6 +65,9 @@ p{
     select{
         font: 1em sans-serif;
     }
+    .ecran{
+        width: 90%;
+    }
     label{
         
          font: 1em sans-serif;
