@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(46, 18, 18);
+}
+.place:hover{
+    cursor: grab;
+}
+.reserv:hover{
+    cursor: not-allowed;
+}
+label{
+    color: aliceblue;
+     font: 2em sans-serif;
+     margin: 1em;
+}
+.ecran{
+    width: 40%;
+    height: 25vh;
+    margin: auto;
+    margin-top: 1em;
+    background-color: aliceblue ;
+}
+select{
+    border: none;
+    border-radius: 5px;
+    font: 2em sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+span{
+    color: aquamarine;
+}
+
+.row{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    
+    margin-top: 3%;
+}
+
+td{
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 10px;
+   
+}
+.place{
+    background-color: gray;
+    
+}
+.Selectionner{
+    background-color: aquamarine;
+}
+.reserv{
+    background-color: red;
+}
+p{
+    color: aliceblue;
+    font-size: 2em;
+}
+@media screen and (max-width: 483px) {
+    select{
+        font: 1em sans-serif;
+    }
+    label{
+        
+         font: 1em sans-serif;
+         
+    }
+    td{
+        width: 1em;
+        height: 1em;
+        border-radius: 5px;
+    }
+
+    p{
+       
+        font-size: 1em;
+    }
+}
